@@ -25,7 +25,7 @@
 
 主题角色：**Claude 拟人「Claude 娘」**——铜橙色长发、橙花发饰、黑白橙层叠长裙、抱书的少女，社区最流行的非官方拟人设定。
 
-- **正面（人设卡）**：黑白橙三角几何铺底（Anthropic 视觉语言），左侧全身立绘，右侧为金色 Claude 星芒 Logo 与角色档案卡，档案栏全部用**沉金**呈现金属光泽：
+- **正面（人设卡）**：宫殿烛光场景，Claude 娘端坐王座，**金色描边**沿人物轮廓勾出发丝与礼服褶皱；右上为金色 Claude 星芒 Logo 与「CONSTITUTIONAL AI」，右下为角色档案卡，全部用**沉金**呈现金属光泽：
 
   - **NAME**：Claude（大语言模型）
   - **SPECIES**：大语言模型
@@ -62,7 +62,9 @@
 
 | 正面（人设卡） | 背面（Claude Suspended） |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/2D_PCB1_2026-11-01.png" width="480"> | <img src="https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/2D_PCB1_2026-11-02.png" width="480"> |
+| <img src="https://github.com/user-attachments/assets/ae8434c0-b79d-4564-93f7-c5fc67e09170" width="480"> | <img src="https://github.com/user-attachments/assets/5a682829-e9e2-4b2f-ba76-6b7f89819aa1" width="480"> |
+
+> 预览图随 [Releases](https://github.com/alsunmengy/Claude-PCB-Art/releases) 一起发布，仓库内不再存大图。
 
 ## 🛠️ 使用方式
 
@@ -109,8 +111,6 @@
 
 ```
 Claude-PCB-Art/
-├─ 2D_PCB1_2026-11-01.png        # 正面 2D 预览
-├─ 2D_PCB1_2026-11-02.png        # 背面 2D 预览
 ├─ claude_立绘_原版_3072x5504.jpg  # 主立绘原图（ZipZipPipe）
 ├─ claude_工程服版_941x1672.jpg    # 工程服版本（安全帽 + CLAUDE 工装）
 ├─ preview_主立绘.jpg / preview_工程服版.jpg
