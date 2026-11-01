@@ -1,0 +1,1262 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-10-20",
+  "sources": {
+    "zipzippipe-pixiv": {
+      "title": "ZipZipPipe《AI娘化》",
+      "page_url": "https://www.pixiv.net/artworks/148186519",
+      "author": "ZipZipPipe",
+      "author_id": "18604994",
+      "author_url": "https://www.pixiv.net/users/18604994",
+      "published_at": "2026-08-09T01:18:00+09:00",
+      "accessed_on": "2026-10-01",
+      "kind": "author_original_collection",
+      "note": "通过作者作品的 pages 接口取得 original 文件，原字节保存。此为公开合集收录日期，不能据此认定为角色首次设计日期。"
+    },
+    "zipzippipe-video": {
+      "title": "ZipZipPipe《大AI和小AI们》",
+      "page_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+      "author": "ZipZipPipe",
+      "author_id": "4168597",
+      "author_url": "https://space.bilibili.com/4168597",
+      "published_at": "2026-05-02T18:50:13+08:00",
+      "accessed_on": "2026-10-01",
+      "kind": "author_video",
+      "video_resolution": [
+        720,
+        1280
+      ],
+      "video_sha256": "90422b16e63a2c0ec410fa3a19930120baff8f1d6446b45c060d2eaa02ddb70f",
+      "note": "作者在简介中说明包含九款 AI 的大、小两种设计，顺序为 DeepSeek、Gemini、Claude、GPT、Grok、GLM、Kimi、MiniMax、Qwen。本仓库已有其中八款的 Q 版截帧；MiniMax 的 Q 版截帧尚未提取。截帧为完整画面，未裁切、未放大、未重绘。"
+    },
+    "aigengtu-refs": {
+      "title": "梗鲸 / 大肥鱼娘三视图设定集",
+      "page_url": "https://aigengtu.com/refs",
+      "index_url": "https://aigengtu.com/public/refs.json",
+      "index_updated_on": "2026-09-17",
+      "accessed_on": "2026-10-01",
+      "kind": "community_reference_collection",
+      "author": null,
+      "note": "社区整理站提供下载。所选两图与女仆鲸鱼娘正常比例 / Q版设计对应；索引未标明具体绘制者，不归为 ZipZipPipe 原稿，作为补充参考独立存放。"
+    },
+    "doubao-official": {
+      "title": "豆包官网",
+      "page_url": "https://www.doubao.com/",
+      "author": "豆包 / 字节跳动",
+      "accessed_on": "2026-10-01",
+      "kind": "official_brand_asset",
+      "note": "官网公开的官方头像，不是全身立绘，不推断成年 / Q版设定。"
+    },
+    "xingluoluo-ren-shi-mao": {
+      "title": "星落落_oi《deepseek 翻唱〈人是猫〉真完整版》",
+      "page_url": "https://www.bilibili.com/video/BV1fYpn6SEk9/",
+      "author": "星落落_oi",
+      "published_at": "2026-10-11T22:17:12+08:00",
+      "accessed_on": "2026-10-18",
+      "kind": "community_vocal_reference",
+      "bvid": "BV1fYpn6SEk9",
+      "note": "成片为 DeepSeek 娘翻唱《人是猫》。本仓库保存由该成片生成的纯人声，用作声音参考，不是带伴奏的完整视频。简介注明含 AI 生成内容，且未经作者授权禁止转载。原曲为张卡斯的洛天依原创《人是猫》（BV1Bfjq6LEDi）；视频制作蒙德砍壬；形象模型来自 ZipZipPipe；音色参考标注为 ssr 大肥鱼音色（BV1PPYM6EEUR）。"
+    },
+    "zipzippipe-pixiv-150718881": {
+      "title": "ZipZipPipe《一些更新》",
+      "page_url": "https://www.pixiv.net/artworks/150718881",
+      "author": "ZipZipPipe",
+      "author_id": "18604994",
+      "author_url": "https://www.pixiv.net/users/18604994",
+      "published_at": "2026-10-11T14:51:00+09:00",
+      "accessed_on": "2026-10-20",
+      "kind": "author_original_collection",
+      "note": "作者说明这批仍未发完。对得上角色的页已归入角色目录，对不上角色名的页已从本仓库删除。"
+    },
+    "zipzippipe-bilibili-20260815": {
+      "title": "ZipZipPipe 2026-08-15 动态配图",
+      "page_url": "https://www.bilibili.com/opus/1236803362705375305",
+      "author": "ZipZipPipe",
+      "author_id": "4168597",
+      "author_url": "https://space.bilibili.com/4168597",
+      "published_at": "2026-08-15T22:28:00+08:00",
+      "accessed_on": "2026-10-20",
+      "kind": "author_original_collection",
+      "note": "九张原图。与 Pixiv《AI娘化》重复的不重复保存；Image 2 已从本仓库移除。此处保留 Seed 全身立绘和 DeepSeek 短裙女仆。"
+    },
+    "fuh-mimo": {
+      "title": "甶丶《娘化mimo》",
+      "page_url": "https://www.bilibili.com/opus/1242097128919007239",
+      "author": "甶丶",
+      "author_url": "https://www.bilibili.com/opus/1242097128919007239",
+      "published_at": "2026-08-30T04:51:00+08:00",
+      "accessed_on": "2026-10-20",
+      "kind": "community_character_design",
+      "note": "ZipZipPipe 的公开合集没有小米 MiMo。此套为作者甶丶发布的立绘和三视图，投稿说明为 CC BY-NC，并允许收录和下载。"
+    },
+    "generated-doubao-avatar": {
+      "title": "按豆包官方头像生成的全身参考",
+      "page_url": "https://www.doubao.com/",
+      "author": "本仓库生成",
+      "accessed_on": "2026-10-20",
+      "kind": "generated_reference",
+      "note": "官方只公开了短发头像。全身和三视图是对照 characters/doubao/official/doubao-avatar.png 新生成的参考，不是豆包官方发布的原图，也不是 ZipZipPipe 的设计。"
+    }
+  },
+  "characters": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "design_basis": "ZipZipPipe",
+      "appearance": "蓝发、鲸鳍、鲸尾、深蓝白女仆长裙",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "community_reference",
+        "chibi_turnaround": "community_reference",
+        "voice_reference": "collected"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "GPT / ChatGPT",
+      "design_basis": "ZipZipPipe",
+      "appearance": "白发龙娘、龙角、龙翼、长尾、白紫长裙",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "design_basis": "ZipZipPipe",
+      "appearance": "橙色长发、花饰、书本、米白橙黑长裙",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "design_basis": "ZipZipPipe",
+      "appearance": "金色双马尾、蝙蝠翼、黑红裙装、巨斧",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "design_basis": "ZipZipPipe",
+      "appearance": "白色长发、深蓝裙装、月夜与 K 标识",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "design_basis": "ZipZipPipe",
+      "appearance": "紫蓝渐变长发、猫耳猫尾、四色星标",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "智谱 / GLM",
+      "design_basis": "ZipZipPipe",
+      "appearance": "黑色长发、黑白裙装、书本、Z 标识",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "千问 / Qwen",
+      "design_basis": "ZipZipPipe",
+      "appearance": "蓝紫长发、中式服装、折扇、千问标识",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "collected",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "design_basis": "ZipZipPipe",
+      "appearance": "橙色短发、记者帽、场记板、海螺，包上有 MINIMAX",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "Seed / 豆包",
+      "design_basis": "ZipZipPipe",
+      "appearance": "紫蓝单马尾、蓝白科技装、SEED 工牌、豆包玩偶",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "design_basis": "ZipZipPipe",
+      "appearance": "白发、羊驼耳与羊驼拖鞋、宽松白外套、无穷符号",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "design_basis": "ZipZipPipe",
+      "appearance": "金发、红帽、红白礼裙、法棍长剑、M 标识",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "hunyuan",
+      "name": "混元 / Hunyuan",
+      "design_basis": "ZipZipPipe",
+      "appearance": "黑发、红围巾、黑白中式长袍、算盘与企鹅挂件",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "missing",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版成年三视图",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "mimo",
+      "name": "MiMo / 小米",
+      "design_basis": "甶丶",
+      "appearance": "银白双马尾、橙黑外套、mi 与 MiMo 标识、一只白袜一只黑袜，抱着白兔",
+      "coverage": {
+        "adult_original": "collected",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "collected",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "Q版原图文件",
+        "作者原版Q版三视图"
+      ]
+    },
+    {
+      "id": "doubao",
+      "name": "豆包 / Doubao",
+      "design_basis": "豆包官方形象",
+      "appearance": "豆包官网的短发女性头像；全身和三视图为对照该头像生成的参考",
+      "coverage": {
+        "adult_original": "generated_reference",
+        "chibi_original": "missing",
+        "chibi_video_reference": "missing",
+        "adult_turnaround": "generated_reference",
+        "chibi_turnaround": "missing"
+      },
+      "missing": [
+        "官方发布的全身原图",
+        "官方发布的三视图"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "zipzippipe-pixiv-148186519-p00",
+      "character_id": "deepseek",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/deepseek/adult/zipzippipe-pixiv-148186519-p00.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 1152,
+      "height": 2048,
+      "bytes": 1825859,
+      "sha256": "73264faff3511347b1b9668d5d937cbb3f2402f8bb03cc158fc8a81bfc2d077c",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p0.jpg",
+      "source_page_index": 0,
+      "source_page_number": 1,
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "上善无形原角色 → ZipZipPipe 女仆二次设计；社区补充图的具体绘制者仍未核实。"
+      },
+      "preview": "previews/deepseek-adult-zipzippipe-pixiv-148186519-p00.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-05s",
+      "character_id": "deepseek",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/deepseek/chibi/zipzippipe-BV1tE9XBbErS-05s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 712701,
+      "sha256": "cbcd4b58b2115b8dbc7ece8271026841928be7ac594705693357ade8e8baacef",
+      "source_timestamp_seconds": 5,
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "上善无形原角色 → ZipZipPipe 女仆二次设计；社区补充图的具体绘制者仍未核实。"
+      },
+      "preview": "previews/deepseek-chibi-zipzippipe-BV1tE9XBbErS-05s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p03",
+      "character_id": "gpt",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/gpt/adult/zipzippipe-pixiv-148186519-p03.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 9828690,
+      "sha256": "c47948cd25efcf7ad4a5179288c8452445d57d6dfc379fb27ab6e809a6970157",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p3.jpg",
+      "source_page_index": 3,
+      "source_page_number": 4,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/gpt-adult-zipzippipe-pixiv-148186519-p03.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-23s",
+      "character_id": "gpt",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/gpt/chibi/zipzippipe-BV1tE9XBbErS-23s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 1108711,
+      "sha256": "90606f78f5c8ee76c3547c0df2999ba145cdb50bef25e7fc6a8a6c3ecc4ee4d5",
+      "source_timestamp_seconds": 23,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/gpt-chibi-zipzippipe-BV1tE9XBbErS-23s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p02",
+      "character_id": "claude",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/claude/adult/zipzippipe-pixiv-148186519-p02.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 10689595,
+      "sha256": "6fb3d6568ccd23cea1437226947276ab052bcdd47d6b7d55d8b5ca148c779782",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p2.jpg",
+      "source_page_index": 2,
+      "source_page_number": 3,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/claude-adult-zipzippipe-pixiv-148186519-p02.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-17s",
+      "character_id": "claude",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/claude/chibi/zipzippipe-BV1tE9XBbErS-17s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 1166414,
+      "sha256": "331eb459d81c0a2f908fccaf8365f137a77098f81f1e145cca5413a1def07c55",
+      "source_timestamp_seconds": 17,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/claude-chibi-zipzippipe-BV1tE9XBbErS-17s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p07",
+      "character_id": "grok",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/grok/adult/zipzippipe-pixiv-148186519-p07.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 12154816,
+      "sha256": "a5a4b4c95f905034b64bf80237f1b859ade0e6e31cadf4db40f9642124e171bb",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p7.jpg",
+      "source_page_index": 7,
+      "source_page_number": 8,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/grok-adult-zipzippipe-pixiv-148186519-p07.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-29s",
+      "character_id": "grok",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/grok/chibi/zipzippipe-BV1tE9XBbErS-29s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 1039962,
+      "sha256": "2f311320ca878e084ae031b65fbb697d3eb296f4091050a71c33797b78f30235",
+      "source_timestamp_seconds": 29,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/grok-chibi-zipzippipe-BV1tE9XBbErS-29s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p05",
+      "character_id": "kimi",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/kimi/adult/zipzippipe-pixiv-148186519-p05.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 1152,
+      "height": 2048,
+      "bytes": 2161152,
+      "sha256": "14eb96127c1c7233d3b649f946decdfd8eebb169da2b357b928dd301624186a7",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p5.jpg",
+      "source_page_index": 5,
+      "source_page_number": 6,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/kimi-adult-zipzippipe-pixiv-148186519-p05.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-41s",
+      "character_id": "kimi",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/kimi/chibi/zipzippipe-BV1tE9XBbErS-41s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 1040749,
+      "sha256": "bc9d61f6365e97e679dda15c59b9c8d78193b19ef379f6e1efaaad743b6f84f3",
+      "source_timestamp_seconds": 41,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/kimi-chibi-zipzippipe-BV1tE9XBbErS-41s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p04",
+      "character_id": "gemini",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/gemini/adult/zipzippipe-pixiv-148186519-p04.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 9087735,
+      "sha256": "1353cf80c62b1841f0b59671a693aef945a297c586c9ad32f1a36efc5e3e15ab",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p4.jpg",
+      "source_page_index": 4,
+      "source_page_number": 5,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/gemini-adult-zipzippipe-pixiv-148186519-p04.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-11s",
+      "character_id": "gemini",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/gemini/chibi/zipzippipe-BV1tE9XBbErS-11s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 981649,
+      "sha256": "d496c4edf07b964e18cce99b007c913237c9d44d1c8088fb84ea83e1972d1364",
+      "source_timestamp_seconds": 11,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/gemini-chibi-zipzippipe-BV1tE9XBbErS-11s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p06",
+      "character_id": "glm",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/glm/adult/zipzippipe-pixiv-148186519-p06.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 1152,
+      "height": 2048,
+      "bytes": 1317520,
+      "sha256": "b15ddcb0cc9308087182da75e65e77b3ed14b8d20278b36f76e4712d2df965b8",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p6.jpg",
+      "source_page_index": 6,
+      "source_page_number": 7,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/glm-adult-zipzippipe-pixiv-148186519-p06.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-35s",
+      "character_id": "glm",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/glm/chibi/zipzippipe-BV1tE9XBbErS-35s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 828333,
+      "sha256": "9088698d394f6a358be564300bb29d793c90ed328e91b51af56c453d0db3fea9",
+      "source_timestamp_seconds": 35,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/glm-chibi-zipzippipe-BV1tE9XBbErS-35s.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p12",
+      "character_id": "qwen",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/qwen/adult/zipzippipe-pixiv-148186519-p12.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的初始设计立绘版本；成年仅作正常比例分类，不代表作者公布了角色年龄。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 10109914,
+      "sha256": "3dfe6fafc0531d1bf3fd0a72556c91d53253b377ac52355bb127e54020d55114",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p12.jpg",
+      "source_page_index": 12,
+      "source_page_number": 13,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/qwen-adult-zipzippipe-pixiv-148186519-p12.jpg"
+    },
+    {
+      "id": "zipzippipe-BV1tE9XBbErS-53s",
+      "character_id": "qwen",
+      "title": "作者原版Q版展示截帧",
+      "path": "characters/qwen/chibi/zipzippipe-BV1tE9XBbErS-53s.png",
+      "source_id": "zipzippipe-video",
+      "asset_type": "video_frame_reference",
+      "form": "chibi",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "完整 720×1280 视频截帧。保留视频中的背景及展示效果，不是原始Q版立绘文件。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 997530,
+      "sha256": "4f59aee4d8d4fa341a40b68f33d9593708f7eecfcb19c96ad8aa44d9bb844cb9",
+      "source_timestamp_seconds": 53,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/qwen-chibi-zipzippipe-BV1tE9XBbErS-53s.jpg"
+    },
+    {
+      "id": "doubao-avatar",
+      "character_id": "doubao",
+      "title": "官方短发女性头像",
+      "path": "characters/doubao/official/doubao-avatar.png",
+      "source_id": "doubao-official",
+      "asset_type": "official_avatar",
+      "form": "official",
+      "creators": [
+        "豆包 / 字节跳动"
+      ],
+      "note": "官方公开头像，仅作品牌形象存档；没有用同人图补齐官方全身立绘。",
+      "width": 160,
+      "height": 160,
+      "bytes": 26799,
+      "sha256": "3f50295851accd33c7d68e27ad88fbbe439b783fe9e068ffdfa0d1e88c8c3268",
+      "download_url": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png",
+      "license": {
+        "status": "official_copyright",
+        "identifier": null,
+        "note": "公开展示不等于开放再授权；版权和品牌权利归原权利人。"
+      },
+      "preview": "previews/doubao-official-doubao-avatar.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p01-variant",
+      "character_id": "deepseek",
+      "title": "作者正常比例立绘变体",
+      "path": "characters/deepseek/adult/zipzippipe-pixiv-148186519-p01-variant.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "portrait_variant",
+      "form": "adult",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）"
+      ],
+      "note": "作者原图变体，单独保存，主预览仍使用初始设计。",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 2878091,
+      "sha256": "4cee881c03347ce2b77218a2f984ab4938c1c53cbcfd47f3aa7b939fda905c4d",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p1.jpg",
+      "source_page_index": 1,
+      "source_page_number": 2,
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "上善无形原角色 → ZipZipPipe 女仆二次设计；社区补充图的具体绘制者仍未核实。"
+      },
+      "preview": "previews/deepseek-adult-zipzippipe-pixiv-148186519-p01-variant.jpg"
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p10-variant",
+      "character_id": "gemini",
+      "title": "作者另一形象版本（区别于初始猫娘）",
+      "path": "characters/gemini/adult/zipzippipe-pixiv-148186519-p10-variant.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "portrait_variant",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者原图变体，单独保存，主预览仍使用初始设计。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 8380978,
+      "sha256": "a923dd580c161ecb0f869b8c0457deaece480a74d0f0f00e4abadf55521d99ce",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p10.jpg",
+      "source_page_index": 10,
+      "source_page_number": 11,
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/gemini-adult-zipzippipe-pixiv-148186519-p10-variant.jpg"
+    },
+    {
+      "id": "adult-aigengtu-03-long-skirt-maid",
+      "character_id": "deepseek",
+      "title": "社区补充三视图",
+      "path": "characters/deepseek/turnarounds/adult-aigengtu-03-long-skirt-maid.png",
+      "source_id": "aigengtu-refs",
+      "asset_type": "turnaround",
+      "form": "adult",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）",
+        "三视图绘制者待核实"
+      ],
+      "note": "有正面 / 侧面 / 背面。来自社区整理站，不能标注为 ZipZipPipe 本人绘制的三视图原稿。",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1905716,
+      "sha256": "4da613e4721dd02113d38d24ac4e17b42bdc179309405387958a300f0a754091",
+      "download_url": "https://img.aigengtu.com/refs/03-long-skirt-maid.png",
+      "license": {
+        "status": "underlying_character_license_verified_file_author_unverified",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "原角色为 CC BY-NC-SA 4.0；三视图具体绘制者和文件声明尚未核实，不代表已取得额外作者授权。"
+      }
+    },
+    {
+      "id": "chibi-aigengtu-05-chibi-blue-maid",
+      "character_id": "deepseek",
+      "title": "社区补充三视图",
+      "path": "characters/deepseek/turnarounds/chibi-aigengtu-05-chibi-blue-maid.png",
+      "source_id": "aigengtu-refs",
+      "asset_type": "turnaround",
+      "form": "chibi",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）",
+        "三视图绘制者待核实"
+      ],
+      "note": "有正面 / 侧面 / 背面。来自社区整理站，不能标注为 ZipZipPipe 本人绘制的三视图原稿。",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1651211,
+      "sha256": "f789f014ba127295fc806fd839056244a711cd439cbe0c62b23b633e2c857a8a",
+      "download_url": "https://img.aigengtu.com/refs/05-chibi-blue-maid.png",
+      "license": {
+        "status": "underlying_character_license_verified_file_author_unverified",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "原角色为 CC BY-NC-SA 4.0；三视图具体绘制者和文件声明尚未核实，不代表已取得额外作者授权。"
+      }
+    },
+    {
+      "id": "deepseek-vocal-BV1fYpn6SEk9",
+      "character_id": "deepseek",
+      "title": "DeepSeek娘纯人声参考",
+      "path": "characters/deepseek/DeepSeek娘_人声.mp3",
+      "source_id": "xingluoluo-ren-shi-mao",
+      "asset_type": "voice_reference",
+      "form": "vocal",
+      "creators": [
+        "星落落_oi（翻唱成片）",
+        "张卡斯（原曲《人是猫》）",
+        "蒙德砍壬（视频制作）"
+      ],
+      "note": "由 BV1fYpn6SEk9 成片生成的纯人声，用作 DeepSeek 娘声音参考。时长 134.1 秒，只保留人声。",
+      "duration_seconds": 134.118458,
+      "bytes": 2746235,
+      "sha256": "8e12e28b9beae17fca07a46236cba0262c193726fe27410ff2f30f802d2e5b81",
+      "license": {
+        "status": "redistribution_not_authorized",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1fYpn6SEk9/",
+        "note": "成片简介写明未经作者授权禁止转载，并含 AI 生成内容。本地仅作声音参考，不视为开放许可。"
+      }
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p09",
+      "character_id": "mistral",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/mistral/adult/zipzippipe-pixiv-148186519-p09.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的立绘；成年仅作正常比例分类，不代表作者公布了角色年龄。礼帽、裙摆和钥匙上有 M 标识，手持法棍长剑。",
+      "width": 941,
+      "height": 1672,
+      "bytes": 1740561,
+      "sha256": "133844aca2cd82401125a2783207a902b6449f7c759b25905f3b0239cb775d80",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/mistral-adult-zipzippipe-pixiv-148186519-p09.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p9.jpg",
+      "source_page_index": 9,
+      "source_page_number": 10
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p13",
+      "character_id": "llama",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/llama/adult/zipzippipe-pixiv-148186519-p13.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的立绘；成年仅作正常比例分类，不代表作者公布了角色年龄。白发、羊驼耳与羊驼拖鞋、无穷符号。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 7841142,
+      "sha256": "efe928d775e432353cd9067a54f4fe4cf5a5bf7a9dd3611b27fb9f2b3867a120",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/llama-adult-zipzippipe-pixiv-148186519-p13.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p13.jpg",
+      "source_page_index": 13,
+      "source_page_number": 14
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p14-variant",
+      "character_id": "llama",
+      "title": "作者正常比例立绘变体",
+      "path": "characters/llama/adult/zipzippipe-pixiv-148186519-p14-variant.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "portrait_variant",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "与 P14 为同一羊驼娘的另一站姿，单独保存。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 7392573,
+      "sha256": "f144102cedd84852de6fbf5153d646ffb3fa3b5b1982575315b5f2d035eff575",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/llama-adult-zipzippipe-pixiv-148186519-p14-variant.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p14.jpg",
+      "source_page_index": 14,
+      "source_page_number": 15
+    },
+    {
+      "id": "zipzippipe-pixiv-148186519-p15",
+      "character_id": "minimax",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/minimax/adult/zipzippipe-pixiv-148186519-p15.jpg",
+      "source_id": "zipzippipe-pixiv",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的立绘；成年仅作正常比例分类，不代表作者公布了角色年龄。包上写有 MINIMAX，并带场记板与海螺。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 8499425,
+      "sha256": "04febfc86453a5668d20cf2f2bc8ec5e80c5baeb4260df52f705a7926f9001a5",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/minimax-adult-zipzippipe-pixiv-148186519-p15.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/08/09/01/18/27/148186519_p15.jpg",
+      "source_page_index": 15,
+      "source_page_number": 16
+    },
+    {
+      "id": "zipzippipe-pixiv-150718881-p03",
+      "character_id": "hunyuan",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/hunyuan/adult/zipzippipe-pixiv-150718881-p03.jpg",
+      "source_id": "zipzippipe-pixiv-150718881",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的立绘；成年仅作正常比例分类，不代表作者公布了角色年龄。算盘、企鹅挂件与太极挂饰，对应腾讯混元。",
+      "width": 1152,
+      "height": 2048,
+      "bytes": 1777100,
+      "sha256": "795b61234e6b7f6d315aaf784e1cbd97c9d4eb2d572d1dba46d23601f2485679",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/hunyuan-adult-zipzippipe-pixiv-150718881-p03.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/10/11/14/51/49/150718881_p3.jpg",
+      "source_page_index": 3,
+      "source_page_number": 4
+    },
+    {
+      "id": "zipzippipe-pixiv-150718881-p04-variant",
+      "character_id": "claude",
+      "title": "作者工程服形象版本",
+      "path": "characters/claude/adult/zipzippipe-pixiv-150718881-p04-variant.jpg",
+      "source_id": "zipzippipe-pixiv-150718881",
+      "asset_type": "portrait_variant",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "安全帽与工装上有 CLAUDE 字样，与初始礼服不是同一张。",
+      "width": 941,
+      "height": 1672,
+      "bytes": 1506557,
+      "sha256": "9d0559b69db7353a89ba415355a56fab12c07ad3d8a8c3ae928697c391109e71",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/claude-adult-zipzippipe-pixiv-150718881-p04-variant.jpg",
+      "download_url": "https://i.pximg.net/img-original/img/2026/10/11/14/51/49/150718881_p4.jpg",
+      "source_page_index": 4,
+      "source_page_number": 5
+    },
+    {
+      "id": "zipzippipe-bilibili-1236803362705375305-p00",
+      "character_id": "seed",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/seed/adult/zipzippipe-bilibili-1236803362705375305-p00.jpg",
+      "source_id": "zipzippipe-bilibili-20260815",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "ZipZipPipe"
+      ],
+      "note": "作者本人公开的立绘；成年仅作正常比例分类，不代表作者公布了角色年龄。工牌、裙摆和设备上写有 SEED，怀抱豆包玩偶。",
+      "width": 3072,
+      "height": 5504,
+      "bytes": 5673986,
+      "sha256": "81b76f71e19ed9f926e32c70f1710b7551e60efdfa858b46a4ee099d16e47847",
+      "license": {
+        "status": "author_sharing_statement",
+        "identifier": null,
+        "evidence_url": "https://www.bilibili.com/video/BV1bARXBYEZz/",
+        "note": "作者说明作品开放分享与再创作，未核实这些角色适用统一标准许可证，不推断为 CC0 / MIT。"
+      },
+      "preview": "previews/seed-adult-zipzippipe-bilibili-1236803362705375305-p00.jpg",
+      "download_url": "https://i0.hdslb.com/bfs/new_dyn/1ed69d8c1e9d61dce44db50894447a1e4168597.jpg",
+      "source_page_index": 0,
+      "source_page_number": 1
+    },
+    {
+      "id": "zipzippipe-bilibili-1236803362705375305-p07",
+      "character_id": "deepseek",
+      "title": "作者短裙女仆立绘",
+      "path": "characters/deepseek/adult/zipzippipe-bilibili-1236803362705375305-p07.jpg",
+      "source_id": "zipzippipe-bilibili-20260815",
+      "asset_type": "portrait_variant",
+      "form": "adult",
+      "creators": [
+        "上善无形（角色原型）",
+        "ZipZipPipe（女仆二次设计）"
+      ],
+      "note": "蓝发鲸尾短裙女仆，围裙口袋有鲸鱼图案。与 Pixiv 长裙初始设计不是同一文件。",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 2049871,
+      "sha256": "f6bc408a318e710c7555c7c46ca63659d93a56b604eea2794ed45f9e6ec2ac88",
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC-SA-4.0",
+        "evidence_url": "https://www.bilibili.com/video/BV1tE9XBbErS/",
+        "note": "上善无形原角色 → ZipZipPipe 女仆二次设计；社区补充图的具体绘制者仍未核实。"
+      },
+      "preview": "previews/deepseek-adult-zipzippipe-bilibili-1236803362705375305-p07.jpg",
+      "download_url": "https://i0.hdslb.com/bfs/new_dyn/29b525f941189a00b6e0e8d935bb25224168597.jpg",
+      "source_page_index": 7,
+      "source_page_number": 8
+    },
+    {
+      "id": "mimo-adult-01",
+      "character_id": "mimo",
+      "title": "初始设计正常比例立绘",
+      "path": "characters/mimo/adult/fuh-bilibili-1242097128919007239-01.png",
+      "source_id": "fuh-mimo",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "甶丶"
+      ],
+      "note": "橘白配色，抱着印有 mi 的兔子。作者动态标题为《娘化mimo》。",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1177875,
+      "sha256": "93e675bcee1937c06c6b621e84e16dd276420d60b651b3e9cc0928372c6f0cf1",
+      "download_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/mimo/issue-35-001.png",
+      "page_url": "https://www.bilibili.com/opus/1242097128919007239",
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC",
+        "evidence_url": "https://www.bilibili.com/opus/1242097128919007239",
+        "note": "作者投稿说明为 CC BY-NC，允许署名和非商业使用，并写明允许收录和下载。未写明具体版本号，不改标为 4.0。"
+      },
+      "preview": "previews/mimo-adult-fuh-bilibili-1242097128919007239-01.jpg"
+    },
+    {
+      "id": "mimo-turnaround-02",
+      "character_id": "mimo",
+      "title": "作者三视图",
+      "path": "characters/mimo/turnarounds/fuh-bilibili-1242097128919007239-02.png",
+      "source_id": "fuh-mimo",
+      "asset_type": "turnaround",
+      "form": "adult",
+      "creators": [
+        "甶丶"
+      ],
+      "note": "同一作者、同一动态的正面 / 侧面 / 背面设定。",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1776826,
+      "sha256": "8c0df2f399316d00978e39d5620d056a1d880c4a80bd863d776d2e4d527c56ee",
+      "download_url": "https://raw.githubusercontent.com/lmy414/ai-girl-stickers/main/dist/submissions/originals/mimo/issue-35-002.png",
+      "page_url": "https://www.bilibili.com/opus/1242097128919007239",
+      "license": {
+        "status": "author_declared",
+        "identifier": "CC-BY-NC",
+        "evidence_url": "https://www.bilibili.com/opus/1242097128919007239",
+        "note": "作者投稿说明为 CC BY-NC，允许署名和非商业使用，并写明允许收录和下载。未写明具体版本号，不改标为 4.0。"
+      },
+      "preview": "previews/mimo-adult-fuh-bilibili-1242097128919007239-02.jpg"
+    },
+    {
+      "id": "doubao-generated-fullbody",
+      "character_id": "doubao",
+      "title": "对照官方头像生成的全身",
+      "path": "characters/doubao/generated/doubao-fullbody.jpg",
+      "source_id": "generated-doubao-avatar",
+      "asset_type": "original_portrait",
+      "form": "adult",
+      "creators": [
+        "本仓库生成（参照豆包官方头像）"
+      ],
+      "note": "短发、黑上衣、浅蓝底，从头到脚。脸对齐官方头像，衣服是为了补全身而补的。",
+      "width": 720,
+      "height": 1280,
+      "bytes": 116004,
+      "sha256": "5b52f8e147abac0abc8c8f557445237090d6c22b98d1bd9ac99c5469aa03fafa",
+      "license": {
+        "status": "generated_reference",
+        "identifier": null,
+        "note": "对照官方头像生成，只作形象参考。角色和商标权利仍归豆包 / 字节跳动。不视为官方设定，也不视为开放许可。"
+      },
+      "preview": "previews/doubao-generated-fullbody.jpg"
+    },
+    {
+      "id": "doubao-generated-turnaround",
+      "character_id": "doubao",
+      "title": "对照官方头像生成的三视图",
+      "path": "characters/doubao/generated/doubao-turnaround.jpg",
+      "source_id": "generated-doubao-avatar",
+      "asset_type": "turnaround",
+      "form": "adult",
+      "creators": [
+        "本仓库生成（参照豆包官方头像）"
+      ],
+      "note": "同一套衣服的正面、侧面、背面。不是官方三视图原稿。",
+      "width": 1280,
+      "height": 720,
+      "bytes": 127796,
+      "sha256": "7fec3f3b3de381f47f8e574f920200cd9345148cdefd5deaf198a0a989d58e0a",
+      "license": {
+        "status": "generated_reference",
+        "identifier": null,
+        "note": "对照官方头像生成，只作形象参考。角色和商标权利仍归豆包 / 字节跳动。不视为官方设定，也不视为开放许可。"
+      },
+      "preview": "previews/doubao-generated-turnaround.jpg"
+    }
+  ]
+}
