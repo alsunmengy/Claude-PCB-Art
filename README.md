@@ -114,7 +114,7 @@ Claude-PCB-Art/
 ├─ bdfy/                         # 蓝色大肥鱼站二创（授权不明，未用于板面）
 ├─ _meta/                        # 尺寸表、来源清单、许可说明
 ├─ SOURCES.md                    # 完整出处与授权清单（重要）
-├─ assets/star-history.png       # Star History 图（每日自动重绘）
+├─ assets/star-history.webp      # Star History 图（每日自动重绘，WebP）
 ├─ assets/star-history-bg.jpg    # Star History 背景图（横版立绘）
 ├─ .github/scripts/gen_star_history.py # Star History 生成脚本
 └─ .github/badges/star-banner.svg # README 顶部横幅
@@ -163,7 +163,7 @@ Claude-PCB-Art/
 
 <p align="center">
   <a href="https://github.com/alsunmengy/Claude-PCB-Art/stargazers">
-    <img src="./assets/star-history.png" alt="Star History · 星标增长记录" width="100%">
+    <img src="./assets/star-history.webp" alt="Star History · 星标增长记录" width="100%">
   </a>
 </p>
 
