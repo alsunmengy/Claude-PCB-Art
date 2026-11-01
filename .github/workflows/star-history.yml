@@ -1,0 +1,49 @@
+name: Star History
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 北京时间 12:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install --quiet pillow
+
+      - name: 下载霞鹜文楷字体
+        run: |
+          mkdir -p /tmp/fonts
+          base=https://github.com/lxgw/LxgwWenKai/releases/download/v1.530
+          curl -sSL --retry 3 -o /tmp/fonts/LXGWWenKai-Medium.ttf "$base/LXGWWenKai-Medium.ttf"
+          curl -sSL --retry 3 -o /tmp/fonts/LXGWWenKaiMono-Medium.ttf "$base/LXGWWenKaiMono-Medium.ttf"
+          ls -lh /tmp/fonts
+
+      - name: 生成 Star History 图
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FONT_CN: /tmp/fonts/LXGWWenKai-Medium.ttf
+          FONT_MONO: /tmp/fonts/LXGWWenKaiMono-Medium.ttf
+        run: python .github/scripts/gen_star_history.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets/star-history.png)" ]; then
+            git add assets/star-history.png
+            git commit -m "chore: 更新 Star History 图 [skip ci]"
+            git push
+          else
+            echo "今日无变化"
+          fi
