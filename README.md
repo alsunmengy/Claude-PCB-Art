@@ -22,6 +22,14 @@
 > - **找到我**：闲鱼 `alsun梦游` 【闲鱼】https://m.tb.cn/h.jUrKaaE?tk=fGs56a43slB HU071 「这是我的闲鱼号，快来看看吧～」
 点击链接直接打开｜ GitHub [`alsunmengy`](https://github.com/alsunmengy) ｜ Star 可选，不点也能用。
 
+
+## ⭐ Star History
+
+[![Star history](https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/.github/star-history/chart.svg)](https://github.com/alsunmengy/Claude-PCB-Art/stargazers)
+
+---
+
+
 ## 📖 项目简介
 
 本项目为**艺术纪念 PCB**，具备电路功能
@@ -159,11 +167,7 @@ Claude-PCB-Art/
 - 同系列作品：[DeepSeek-Mermaid PCB Art](https://github.com/alsunmengy/DeepSeek-PCB-Art) ｜ [GPT-6 Astra PCB Art](https://github.com/alsunmengy/GPT-PCB-Art) ｜ [LuoTianyi-PCB-Art](https://github.com/alsunmengy/LuoTianyi-PCB-Art) ｜ [Carlotta-PCB-Art](https://github.com/alsunmengy/Carlotta-PCB-Art)
 - 角色档案：[genderswapai](https://genderswapai.com/zh-CN/ai-gijinka/claude)
 
-## ⭐ Star History
 
-[![Star history](https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/.github/star-history/chart.svg)](https://github.com/alsunmengy/Claude-PCB-Art/stargazers)
-
----
 
 ## 📌 致谢
 
