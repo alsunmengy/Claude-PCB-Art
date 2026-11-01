@@ -114,6 +114,9 @@ Claude-PCB-Art/
 ├─ bdfy/                         # 蓝色大肥鱼站二创（授权不明，未用于板面）
 ├─ _meta/                        # 尺寸表、来源清单、许可说明
 ├─ SOURCES.md                    # 完整出处与授权清单（重要）
+├─ assets/star-history.png       # Star History 图（每日自动重绘）
+├─ assets/star-history-bg.jpg    # Star History 背景图（横版立绘）
+├─ .github/scripts/gen_star_history.py # Star History 生成脚本
 └─ .github/badges/star-banner.svg # README 顶部横幅
 ```
 
@@ -155,6 +158,16 @@ Claude-PCB-Art/
 - 打样/开源说明视频：[关于我做出来的 PCB：赠送 / 售卖 / 开源](https://b23.tv/tJhAZ84)
 - 同系列作品：[DeepSeek-Mermaid PCB Art](https://github.com/alsunmengy/DeepSeek-PCB-Art) ｜ [GPT-6 Astra PCB Art](https://github.com/alsunmengy/GPT-PCB-Art) ｜ [LuoTianyi-PCB-Art](https://github.com/alsunmengy/LuoTianyi-PCB-Art) ｜ [Carlotta-PCB-Art](https://github.com/alsunmengy/Carlotta-PCB-Art)
 - 角色档案：[genderswapai](https://genderswapai.com/zh-CN/ai-gijinka/claude)
+
+## ⭐ Star History
+
+<p align="center">
+  <a href="https://github.com/alsunmengy/Claude-PCB-Art/stargazers">
+    <img src="./assets/star-history.png" alt="Star History · 星标增长记录" width="100%">
+  </a>
+</p>
+
+<sub>背景是横版立绘，主题色从橙发高光与灯笼暖光里取；每天中午自动重绘，图会跟着 Star 一起长。</sub>
 
 ---
 
