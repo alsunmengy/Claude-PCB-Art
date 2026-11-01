@@ -16,7 +16,7 @@ REPO = "alsunmengy/Claude-PCB-Art"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 BG = os.path.join(ROOT, "assets", "star-history-bg.jpg")
-OUT = os.path.join(ROOT, "assets", "star-history.png")
+OUT = os.path.join(ROOT, "assets", "star-history.webp")
 
 def pick_font(env_name, candidates, default):
     p = os.environ.get(env_name)
@@ -313,8 +313,23 @@ def build(repo, stars, views):
     d.text(((px1 - 32) * S, (py1 - 30) * S), "每日自动更新", font=font(FONT_CN, 15), fill=INK_DIM + (110,), anchor="ra")
 
     out = canvas.convert("RGB").resize((W, H), Image.LANCZOS)
+
+    # 像素完全相同就不重写文件（避免每天一个无意义的 commit）
+    import hashlib
+    digest = hashlib.sha256(out.tobytes()).hexdigest()
+    HASH = OUT + ".sha256"
+    if os.path.exists(HASH) and os.path.exists(OUT):
+        try:
+            if open(HASH).read().strip() == digest:
+                print("像素无变化，跳过写入")
+                return
+        except Exception:
+            pass
+
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    out.save(OUT, optimize=True)
+    out.save(OUT, quality=95, method=6)
+    with open(HASH, "w") as f:
+        f.write(digest)
     print("saved", OUT, out.size, os.path.getsize(OUT) // 1024, "KB")
 
 
