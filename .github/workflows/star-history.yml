@@ -1,8 +1,8 @@
-name: Star History
+name: Update star history
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # 北京时间 12:00
+    - cron: "17 3 * * *"   # 每天 UTC 3:17（北京 11:17）
   workflow_dispatch:
 
 permissions:
@@ -11,39 +11,22 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    concurrency:
+      group: star-history
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: 安装依赖
-        run: pip install --quiet pillow
-
-      - name: 下载霞鹜文楷字体
-        run: |
-          mkdir -p /tmp/fonts
-          base=https://github.com/lxgw/LxgwWenKai/releases/download/v1.530
-          curl -sSL --retry 3 -o /tmp/fonts/LXGWWenKai-Medium.ttf "$base/LXGWWenKai-Medium.ttf"
-          curl -sSL --retry 3 -o /tmp/fonts/LXGWWenKaiMono-Medium.ttf "$base/LXGWWenKaiMono-Medium.ttf"
-          ls -lh /tmp/fonts
-
-      - name: 生成 Star History 图
+      - name: Regenerate chart (创立至今 · 橙色主题 + 插画背景)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FONT_CN: /tmp/fonts/LXGWWenKai-Medium.ttf
-          FONT_MONO: /tmp/fonts/LXGWWenKaiMono-Medium.ttf
-        run: python .github/scripts/gen_star_history.py
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 .github/scripts/gen_chart.py "$GITHUB_REPOSITORY" "#A8552F" .github/star-history/chart.svg "#7A4A0E" .github/star-history/bg.jpg "Claude 娘"
 
-      - name: 提交更新
+      - name: Commit chart
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain assets/)" ]; then
-            git add assets/star-history.webp assets/star-history.webp.sha256
-            git commit -m "chore: 更新 Star History 图 [skip ci]"
-            git push
-          else
-            echo "今日无变化"
-          fi
+          git add .github/star-history/chart.svg
+          git diff --cached --quiet || git commit -m "chore: update star history"
+          git push
