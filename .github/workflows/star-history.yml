@@ -40,8 +40,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain assets/star-history.png)" ]; then
-            git add assets/star-history.png
+          if [ -n "$(git status --porcelain assets/)" ]; then
+            git add assets/star-history.webp assets/star-history.webp.sha256
             git commit -m "chore: 更新 Star History 图 [skip ci]"
             git push
           else
