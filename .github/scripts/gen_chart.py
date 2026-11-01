@@ -13,7 +13,7 @@ import subprocess
 import sys
 
 W, H = 800, 460
-M_L, M_R, M_T, M_B = 60, 30, 112, 46
+M_L, M_R, M_T, M_B = 60, 30, 112, 58
 PLOT_W, PLOT_H = W - M_L - M_R, H - M_T - M_B
 DEFAULT_BG = ".github/star-history/bg.jpg"
 
@@ -152,9 +152,9 @@ def gen(repo, accent, gold, stars, created, releases, bg_path=None, charlabel=""
       <stop offset="100%" stop-color="{accent}" stop-opacity="0.02"/>
     </linearGradient>
     <linearGradient id="veil" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.88"/>
-      <stop offset="22%" stop-color="#ffffff" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="22%" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.28"/>
     </linearGradient>
   </defs>
   <rect width="{W}" height="{H}" fill="#f7f5fb"/>
@@ -180,7 +180,7 @@ def gen(repo, accent, gold, stars, created, releases, bg_path=None, charlabel=""
   <polyline points="{line}" fill="none" stroke="{accent}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="{end_x:.1f}" cy="{end_y:.1f}" r="4.5" fill="{accent}" stroke="#ffffff" stroke-width="2"/>
   <text x="{label_x:.1f}" y="{end_y - 12:.1f}" text-anchor="end" class="val">★ {total}</text>
-  <text x="{M_L}" y="{H - 12}" class="ax">Source: GitHub stargazers &amp; releases API · auto-updated</text>
+  <text x="{M_L}" y="{H - 10}" class="ax">Source: GitHub stargazers &amp; releases API · auto-updated</text>
 </svg>
 '''
 
