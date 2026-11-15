@@ -126,7 +126,7 @@ Claude-PCB-Art/
 ├─ bdfy/                         # 蓝色大肥鱼站二创（授权不明，未用于板面）
 ├─ _meta/                        # 尺寸表、来源清单、许可说明
 ├─ SOURCES.md                    # 完整出处与授权清单（重要）
-├─ .github/charts/chart.svg # Star History 图（每天覆盖重绘）
+├─ .github/charts/chart.svg # Star # Star History 图（每天覆盖重绘） 下载历史图（每天覆盖重绘）
 ├─ .github/star-history/bg.jpg    # Star History 背景图（横版立绘）
 ├─ .github/scripts/gen_chart.py   # Star History 生成脚本
 └─ .github/badges/star-banner.svg # README 顶部横幅
