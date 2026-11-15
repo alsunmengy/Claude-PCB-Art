@@ -25,9 +25,11 @@
 点击链接直接打开｜ GitHub [`alsunmengy`](https://github.com/alsunmengy) ｜ Star 可选，不点也能用。
 
 
-## ⭐ Star History
+## Star & Download History
+[![Star & download history](https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/.github/charts/chart.svg)](https://github.com/alsunmengy/Claude-PCB-Art/stargazers)
 
-[![Star history](https://raw.githubusercontent.com/alsunmengy/Claude-PCB-Art/main/.github/star-history/chart.svg)](https://github.com/alsunmengy/Claude-PCB-Art/stargazers)
+> 上图上半是 star 累积，下半是 Release 下载累积，共用一条时间轴；竖虚线是发版时间。每天 UTC 3:10 自动重新采集并提交。
+
 
 ---
 
@@ -124,7 +126,7 @@ Claude-PCB-Art/
 ├─ bdfy/                         # 蓝色大肥鱼站二创（授权不明，未用于板面）
 ├─ _meta/                        # 尺寸表、来源清单、许可说明
 ├─ SOURCES.md                    # 完整出处与授权清单（重要）
-├─ .github/star-history/chart.svg # Star History 图（每天覆盖重绘）
+├─ .github/charts/chart.svg # Star History 图（每天覆盖重绘）
 ├─ .github/star-history/bg.jpg    # Star History 背景图（横版立绘）
 ├─ .github/scripts/gen_chart.py   # Star History 生成脚本
 └─ .github/badges/star-banner.svg # README 顶部横幅
